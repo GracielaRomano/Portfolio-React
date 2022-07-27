@@ -1,0 +1,42 @@
+.header{
+    background: var(--planCard);
+}
+
+.menu .navbar-nav .nav-link {
+   
+    color:yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+    padding: 2rem;
+    font-size: 1rem;
+  }
+  
+  .menu .navbar-nav .nav-link:hover{
+    color: lightgoldenrodyellow;
+  }
+  .logo {
+	margin-bottom: 1rem;
+	font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+	text-align:justify;
+    text-decoration: none;
+	border-radius: 50%;
+    padding: 0.3125em;
+	border: 2px solid white;
+	display: inline-block;
+	font-size: 2.5rem;
+    color: gold;
+	margin-bottom: 0.9375em;
+    margin-top: 1rem;
+    z-index: auto;
+}
+
+
+
+.logo .iniciales-logo {
+	padding: 0.3125em;
+	border: 2px solid yellow;
+	display: inline-block;
+	font-size: 1rem;
+	margin-bottom: 0.9375em;
+}
