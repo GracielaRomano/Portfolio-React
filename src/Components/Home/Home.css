@@ -1,16 +1,15 @@
-.row-content {
-    margin: 0px auto;
-    padding: 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-  }
-  .jumbotron_mio {
+
+  .home {
     margin: 0px auto;
     padding: 80px 40px;
-    background: grey;
+    background-color: rgb(194, 145, 153);
     color: floralwhite;
     width: 100%;
     text-align: center;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media screen and (max-width: 768px) {
+
+    
   }

@@ -1,0 +1,68 @@
+.experiencia-titulo{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem 0;
+    color: white;
+}
+.experiencia-empresa{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.experiencia-lugar{
+    font-size: 12px;
+    font-weight: lighter;
+    color:black;
+    margin-bottom: 0px;
+    padding: 0.1rem 0 0.1rem 0;
+}
+.experiencia-fecha{
+    font-size: 12px;
+    font-weight: lighter;
+    color: black; 
+    margin-bottom: 0px;
+    padding: 0.1rem 0 0.1rem 0;
+}
+.experiencia-detalle{
+    font-size: 13px;
+    font-weight: lighter;
+    color:black;
+    padding: 1rem 0 0.5rem 0;
+    text-align: left;
+    width: 75%;  
+}
+.espacio-exp{
+    width: 230px;
+}
+.titulo-exp{
+    
+    color: var(--appcolor);
+    font-size: 20px;
+}
+.cuadrado_exp{
+    
+    min-height: 150px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--appcolor);
+    width: 100%;
+    text-align: justify;
+    
+}
+.separacion{
+    width: 100%;
+    height: 20px;
+}
+.jumbotron_exp {
+    margin: 0px auto;
+    padding: 80px 40px;
+    background-color: rgb(194, 145, 153);
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 1px solid #3c3f45;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}    
