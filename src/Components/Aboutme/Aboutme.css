@@ -23,7 +23,7 @@
     color:rgb(194, 145, 153);
     text-align: justify;
 }
-.about{
+.texto_about{
   color:white;
   font-size: 22px;
 }
@@ -38,7 +38,7 @@
   border-radius: 5px;
   z-index: 99;
 }
-.circulo{
+.foto_fondo{
   background-color: rgb(194, 145, 153);
   width: 200px;
   height: 210px;
@@ -48,26 +48,22 @@
 }
 
 @media screen and (max-width: 768px){
-  .about{
-    font-size:small;
+  .texto_about{
+    margin-top: 20px;
+    font-size: small;
     right: 0;
     left: 155px;
   }
-  
   .foto{
     width: 150px;
     height: 150px;
-    
-    left: 0;
     flex-direction: column;
-    align-self: center;
-  
+    left: 5rem;
   }
-  .circulo{
+  .foto_fondo{
     width: 150px;
     height: 150px;
     left: 0;
-    
   }
   .jumbotron-ab{
     display: flex;

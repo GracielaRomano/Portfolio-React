@@ -35,7 +35,6 @@
     width: 230px;
 }
 .titulo-exp{
-    
     color: var(--appcolor);
     font-size: 20px;
 }
@@ -65,4 +64,24 @@
 .container-grid{
     display: grid;
     grid-template-columns: auto auto;
-}    
+} 
+@media screen and (max-width: 768px) {
+    .container-grid{
+        grid-template-columns: 1fr;
+    }
+    .experiencia-titulo{
+        left: 0;
+        right: 0;
+        text-align:left;
+        font-size: small;
+    }
+    .experiencia-empresa{
+        left: 0;
+        right: 0;
+        text-align:left;
+        font-size: small; 
+    }
+    .cuadrado_exp{
+        width: 400px;
+    }
+}   

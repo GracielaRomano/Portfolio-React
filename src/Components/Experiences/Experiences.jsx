@@ -10,10 +10,9 @@ const Experiences = () => {
             </div>
             <div>
             <div className="row cuadrado_exp align-items-center">
-                <div className="order-sm-first col-4">
-                
+                <div>
                 </div>
-                <div className="col-8">
+                <div className="col-8 col-sm-12">
                     <h5 className="experiencia-titulo">Encargada General</h5>
                     <h6 className="experiencia-empresa">Mi Negocio</h6>
                     <p className="experiencia-fecha"> 2014 - 2015</p>
@@ -24,10 +23,10 @@ const Experiences = () => {
                 </div>
             </div>
             <div className="row cuadrado_exp align-items-center">
-                <div className="order-sm-first col-4">
+                <div>
                     
                 </div>
-                <div className="col-8">
+                <div className="col-8 col-sm-12 col-md-8">
                     <h5 className="experiencia-titulo">Auxiliar de Sistemas</h5>
                     <h6 className="experiencia-empresa">ON PROJECT</h6>
                     <p className="experiencia-fecha"> 2013 -  2015</p>
@@ -39,10 +38,10 @@ const Experiences = () => {
                 </div>
             </div>
             <div className="row cuadrado_exp align-items-center">
-              <div className="order-sm-first col-4">
+              <div >
                   
               </div>
-              <div className="col-8">
+              <div className="col-8 col-sm-12">
                   <h5 className="experiencia-titulo">Encargada de Local Comercial</h5>
                   <h6 className="experiencia-empresa">Comercializadora El Aserradero S.R.L.</h6>
                   <p className="experiencia-fecha"> 2012 - 2013</p>
@@ -53,9 +52,9 @@ const Experiences = () => {
               </div>
             </div>
             <div className="row cuadrado_exp align-items-center">
-                <div className="order-sm-first col-4">
+                <div >
                 </div>
-              <div className="col-8">
+              <div className="col-8 col-sm-12">
                   <h5 className="experiencia-titulo">Administrativa</h5>
                   <h6 className="experiencia-empresa">Luciana & Pablo Acosta Escuela de Danza</h6>
                   <p className="experiencia-fecha"> 2011 - 2012</p>
@@ -63,10 +62,9 @@ const Experiences = () => {
                   <p className="d-none d-sm-block ml-3 experiencia-detalle"> Trámites Bancarios. Altas y Bajas de Alumnas. Cajera. Atencion al Público
                   </p>
               </div>
+            </div>
           </div>
-          
-          </div>
-    </div>
+        </div>
     </div>
     
   )

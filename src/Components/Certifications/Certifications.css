@@ -24,13 +24,6 @@
     margin-bottom: 0px;
     padding: 0.1rem 0 0.1rem 0;
 }
-.cert-detalle{
-    font-size: 10px;
-    font-weight: lighter;
-    color:rgb(9, 9, 250);
-    padding: 1rem 0 0.5rem 0;
-    text-align: left;  
-}
 .titulo-cert{
     color:#3c3f45;
     text-align: left;
@@ -82,18 +75,19 @@
     .cert-container{
         grid-template-columns: 1fr;
     }
-    .cuadrado_cert{
-        width: 55%;
-    }
-    .cert-detalle{
-        font-size:x-small;
-        text-align: justify;
+    .cert-fecha{
+        text-align: left;
+        margin-left:1rem;
     }
     .cert-titulo{
-        font-size: medium;
+        font-size: small;
+        text-align: left;
+        margin-left:1rem;
     }
     .cert-empresa{
         font-size: small;
+        text-align: left;
+        margin-left:1rem;
     }
     .espacio{
         width: 10px;
@@ -101,5 +95,10 @@
     .imagen-cert{
         width: 40px;
         height: 40px;
+        left: 0;
+        border: 2px solid white;
+    }
+    .espacio{
+        width: 1rem;
     }
 }   

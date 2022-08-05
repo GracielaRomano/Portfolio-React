@@ -407,6 +407,9 @@
     .habilidades-blandas{
         font-size: small;
     }
+    .margin-soft{
+        left: 1px;
+    }
    
 }
   

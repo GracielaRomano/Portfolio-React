@@ -12,19 +12,19 @@ const Certifications = () => {
             </div>
             <div>
                 <div className="row cuadrado_cert align-items-center">
-                    <div className="order-sm-first  col-2">
+                    <div className="order-sm-first col-2 col-sm-12 col-md-8">
                         <div className="media d-flex align-items-start">
                             <img className="d-flex ml-3  align-self-center imagen-cert" src="image/codoacodo.png" alt="ibm"/>
                         </div>
                     </div>
-                    <div className=" col-10">
+                    <div className=" col-10 col-sm-12 col-md-8">
                         <h5 className="cert-titulo">Full Stack Python</h5>  
                         <h6 className="cert-empresa">CODO A CODO 4.0</h6>
                         <p className="cert-fecha">Julio 2022</p>
                     </div>
                 </div>
                 <div className="row cuadrado_cert align-items-center">
-                    <div className="order-sm-first  col-2">
+                    <div className="order-sm-first col-2 col-sm-12 col-md-8">
                         <div className="media d-flex align-items-start">
                             <a
                                 href="https://www.coursera.org/account/accomplishments/specialization/certificate/NKL9AFZUDRE2" target="_blank"  rel="noreferrer noopener">
@@ -32,14 +32,14 @@ const Certifications = () => {
                             </a>
                         </div>
                     </div>
-                    <div className=" col-10">
+                    <div className=" col-10 col-sm-12 col-md-8">
                         <h5 className="cert-titulo">Cloud Application Development Foundations</h5>
                         <h6 className="cert-empresa">IBM</h6>
                         <p className="cert-fecha">enero 2022</p>
                     </div>
                 </div>
                 <div className="row cuadrado_cert  align-items-center">
-                    <div className="order-sm-first col-2">
+                    <div className="order-sm-first col-2 col-sm col-md-8">
                         <div className="media d-flex align-items-start">
                             <a
                                 href="https://www.coursera.org/account/accomplishments/specialization/certificate/24C58VLN7FNN" target="_blank"  rel="noreferrer noopener">
@@ -212,8 +212,6 @@ const Certifications = () => {
                     <h5 className="cert-titulo">The Data Scientist's Toolbox</h5>
                     <h6 className="cert-empresa">Johns Hopkins University</h6>
                     <p className="cert-fecha">diciembre 2020</p>
-                    <p className="cert-detalle">URL de credencial: 
-                    </p>
                 </div>
             </div>
             <div className="row cuadrado_cert align-items-center">
