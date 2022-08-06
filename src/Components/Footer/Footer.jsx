@@ -7,9 +7,10 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
-    <div className="footer mt-auto py-3 "> 
-        <div className="container-footer">
-                <div>
+    <div className="footer"> 
+        <div className="container">
+            <div className='row'>
+                <div className="col-4 offset-1 col-sm-2 ">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                         <li><Link to='home' className='link2'>Inicio</Link></li>
@@ -21,7 +22,7 @@ const Footer = () => {
                         <li><Link to='certifications'className='link2'>Certificaciones</Link></li>
                     </ul>
                 </div>
-                <div>
+                <div className="col-7 col-sm-6 ">
                     <h5>Información de Contacto</h5>
                     <address>
                         Caseros <br />
@@ -30,7 +31,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon = {faEnvelope}/> <a href="mailto:graci.romano@gmail.com">graci.romano@gmail.com</a><br />
                     </address>
                 </div>
-                <div>
+                <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
                         <a className="link" href="https://www.twitter.com" target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faTwitter}/></a>
                         <a className="link" href="http://www.facebook.com/graciela del valle romano" target="_blank"  rel="noreferrer noopener"> <FontAwesomeIcon icon = {faFacebook}/></a>
@@ -40,15 +41,14 @@ const Footer = () => {
                         <a className="link" href="mailto:graci.romano@gmail.com" target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faEnvelope}/></a>
                     </div>
                 </div>
-        </div>
-                <div className="row justify-content-center ">
-                    <div className="col-auto">
-                        <p>© Copyright 2022 Romano Graciela Portfolio</p>
-                    </div>
+            </div>
+            <div className="row justify-content-center ">
+                <div className="col-auto">
+                    <p>© Copyright 2022 Romano Graciela Portfolio</p>
                 </div>
+            </div>
+        </div>
     </div>
-    
-
   )
 }
 

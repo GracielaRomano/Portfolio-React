@@ -5,129 +5,130 @@ const Skills = () => {
   return (
     <div className='container-skills' id='skills'>
         <h1 className="fluid titulo-skills">Habilidades</h1>
-        <div className='skills'>
-            <div className='col-6 col-sm-5 margin-hard'>
-            <h2 className="titulo2-skills">Hard Skills</h2>
-            <div className='separacion-skills'></div>
-            <div className='row'>
-                <div className='col'>
-                    <h3 className="html">HTML5</h3>
-                    <div className="progress1 blue">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">90%</div>
+        <div className='skills row'>
+            <div className='col-md-6 col-sm-12 margin-hard'>
+                <h2 className="titulo2-skills">Hard Skills</h2>
+                <div className='separacion-skills'></div>
+                <div className='row'>
+                    <div className='col'>
+                        <h3 className="html">HTML5</h3>
+                        <div className="progress1 blue">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">90%</div>
+                        </div>
+                    </div>
+                    <div className='col'>
+                        <h3 className="css">CSS</h3>
+                        <div className="progress1 blue2">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">85%</div>
+                        </div>
+                    </div>
+                    <div className='col'>
+                        <h3 className="bootstrap">Bootstrap</h3>
+                        <div className="progress1 orange">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">80%</div>
+                        </div>
                     </div>
                 </div>
-                <div className='col'>
-                    <h3 className="css">CSS</h3>
-                    <div className="progress1 blue2">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">85%</div>
+                <div className='row'>
+                    <div className='col'> 
+                        <h3 className="react">ANGULAR</h3>
+                        <div className="progress1 fucsia">
+                            <span className="progress1-left">
+                                <span className="progress-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">50%</div>
+                        </div>
+                    </div>
+                    <div className='col'>
+                        <h3 className="angular">PHYTON</h3>
+                        <div className="progress1 green">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">70%</div>
+                        </div>
+                    </div>
+                    <div className='col'>
+                        <h3 className="js">NODE.JS</h3>
+                        <div className="progress1 yellow">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">60%</div>
+                        </div>
                     </div>
                 </div>
-                <div className='col'>
-                    <h3 className="bootstrap">Bootstrap</h3>
-                    <div className="progress1 orange">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">80%</div>
+                <div className='row'>
+                    <div className='col'>
+                        <h3 className="phyton">REACT</h3>
+                        <div className="progress1 violeta">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">75%</div>
+                        </div>
+                    </div>
+                    <div className=" col ">
+                        <h3 className="node">JS</h3>
+                        <div className="progress1 turquesa">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">65%</div>
+                        </div>
+                    </div>
+                    <div className=" col">
+                        <h3 className="java">JAVA</h3>
+                        <div className="progress1 verde">
+                            <span className="progress1-left">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <span className="progress1-right">
+                                <span className="progress1-bar"></span>
+                            </span>
+                            <div className="progress1-value">55%</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col'> 
-                    <h3 className="react">ANGULAR</h3>
-                    <div className="progress1 fucsia">
-                        <span className="progress1-left">
-                            <span className="progress-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">50%</div>
-                    </div>
-                </div>
-                <div className='col'>
-                    <h3 className="angular">PHYTON</h3>
-                    <div className="progress1 green">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">70%</div>
-                    </div>
-                </div>
-                <div className='col'>
-                    <h3 className="js">NODE.JS</h3>
-                    <div className="progress1 yellow">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">60%</div>
-                    </div>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col'>
-                    <h3 className="phyton">REACT</h3>
-                    <div className="progress1 violeta">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">75%</div>
-                    </div>
-                </div>
-                <div className=" col ">
-                    <h3 className="node">JS</h3>
-                    <div className="progress1 turquesa">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">65%</div>
-                    </div>
-                </div>
-                <div className=" col">
-                    <h3 className="java">JAVA</h3>
-                    <div className="progress1 verde">
-                        <span className="progress1-left">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <span className="progress1-right">
-                            <span className="progress1-bar"></span>
-                        </span>
-                        <div className="progress1-value">55%</div>
-                    </div>
-                </div>
-            </div>
-        </div>
     
-        <div className='col-6 col-sm-4 margin-soft'>
-            <h2 className="titulo2-skills">Soft Skills</h2>
-            <div className='separacion-skills'></div>
+            <div className='col-md-6 col-sm-12'>
+                <h2 className="titulo2-skills">Soft Skills</h2>
+                <div className='separacion-skills'></div>
+                <div className='texto_skill_soft'>
                 <ul  >
                     <li className="habilidades-blandas">Trabajo en Equipo</li>
                     <li className="habilidades-blandas">Resiliencia</li>
@@ -143,10 +144,10 @@ const Skills = () => {
                     <li className="habilidades-blandas">Capacidad para el Aprendizaje</li>
                     <li className="habilidades-blandas">Capacidad de Adaptación</li>
                 </ul>
-            </div>  
+                </div>
+            </div>
         </div>
     </div>
-    
   )
 }
 

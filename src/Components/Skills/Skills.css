@@ -1,8 +1,7 @@
 .skills{
-    display: flex;
+    /* display: flex; */
     gap: 1rem;
     padding: 0 2rem;
-    
 }
 .container-skills{
     margin: 0px auto;
@@ -17,7 +16,7 @@
 .margin-hard{
     align-content:left ;
 }
-.margin-soft{
+.texto_skill_soft{
     margin-left: 8rem;
 }
 .titulo-skills{
@@ -407,9 +406,8 @@
     .habilidades-blandas{
         font-size: small;
     }
-    .margin-soft{
-        left: 1px;
+    .texto_skill_soft{
+        margin-left: 1rem;
     }
-   
 }
   
