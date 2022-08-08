@@ -5,8 +5,8 @@ const Skills = () => {
   return (
     <div className='container-skills' id='skills'>
         <h1 className="fluid titulo-skills">Habilidades</h1>
-        <div className='skills row'>
-            <div className='col-md-6 col-sm-12 margin-hard'>
+        <div className='row'>
+            <div className='col-md-6 col-sm-12'>
                 <h2 className="titulo2-skills">Hard Skills</h2>
                 <div className='separacion-skills'></div>
                 <div className='row'>

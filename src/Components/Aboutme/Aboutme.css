@@ -32,11 +32,10 @@
   width: 200px;
   height: 200px;
   left: 13rem;
-  
   margin: 1rem 0  1rem 0;
   border:1px solid rgb(194, 145, 153) ;
   border-radius: 5px;
-  z-index: 99;
+  z-index: 1;
 }
 .foto_fondo{
   background-color: rgb(194, 145, 153);
@@ -64,6 +63,7 @@
     width: 150px;
     height: 150px;
     left: 0;
+    margin-right: 2rem;
   }
   .jumbotron-ab{
     display: flex;
@@ -71,6 +71,21 @@
         align-items: center;
         justify-content: center;
         gap: 2rem;
+  }
+}
+@media screen and (max-width: 820px){
+  .foto{
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    left: 5rem;
+  }
+  .foto_fondo{
+    width: 200px;
+    height: 210px;
+    left: 0;
+    right: 10rem;
+    margin-right: 2rem;
   }
 }
   

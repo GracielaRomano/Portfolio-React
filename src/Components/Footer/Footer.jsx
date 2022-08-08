@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer"> 
         <div className="container">
             <div className='row'>
-                <div className="col-4 offset-1 col-sm-2 ">
+                <div className="col-4 offset-1 col-sm-2 col-md-3">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                         <li><Link to='home' className='link2'>Inicio</Link></li>
@@ -22,7 +22,7 @@ const Footer = () => {
                         <li><Link to='certifications'className='link2'>Certificaciones</Link></li>
                     </ul>
                 </div>
-                <div className="col-7 col-sm-6 ">
+                <div className="col-7 col-sm-5 col-md-6 ">
                     <h5>Información de Contacto</h5>
                     <address>
                         Caseros <br />
@@ -31,7 +31,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon = {faEnvelope}/> <a href="mailto:graci.romano@gmail.com">graci.romano@gmail.com</a><br />
                     </address>
                 </div>
-                <div className="col-12 col-sm-4 align-self-center">
+                <div className="col-12 col-sm-4 col-md-8 align-self-center">
                     <div className="text-center">
                         <a className="link" href="https://www.twitter.com" target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faTwitter}/></a>
                         <a className="link" href="http://www.facebook.com/graciela del valle romano" target="_blank"  rel="noreferrer noopener"> <FontAwesomeIcon icon = {faFacebook}/></a>

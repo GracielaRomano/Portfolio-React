@@ -11,13 +11,13 @@ const Aboutme = () => {
     
     <div className="container">
         <div className="row  align-items-center">
-            <div className="order-sm-first col-md-4 col-sm-12">
+            <div className="order-sm-first col-md-4 col-sm-12 col-4">
                 <div className="media d-flex align-items-start">
                     <div className="foto_fondo"></div>
                     <img className="d-flex ml-3 align-self-center foto" src="image/yo4.jpg" alt="mi foto"/>
                 </div>
             </div>
-            <div className="col-md-8 col-sm-12">
+            <div className="col-md-8 col-sm- col-8 order-sm-last">
                 <p className="texto_about">
                   Hola, mi nombre es Graciela soy Analista de Sistemas y Full Stack Developer Jr.</p>
                   <p className="d-none d-sm-block ml-3 about2">  Desde que descubrí el nuevo mundo IT me apacioné con él, hay muchas tecnologias nuevas por indagar y 
