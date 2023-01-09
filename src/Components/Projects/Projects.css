@@ -50,11 +50,11 @@ h5{
   height: 60px;
   width: 60px;
   outline: black;
-  background-color: rgb(194, 145, 153);
+  background-color: rgb(255, 117, 173);
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 2px solid black;
-  color: rgb(194, 145, 153);
+  color: rgb(248, 117, 173);
   background-image: none;
 }
 @media screen and (max-width: 768px){

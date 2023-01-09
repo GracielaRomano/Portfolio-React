@@ -18,6 +18,7 @@ const Projects = () => {
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"aria-label="slide 4"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="4"aria-label="slide 5"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="5"aria-label="slide 6"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="6"aria-label="slide 7"></button>
                       </div>
                       <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -36,7 +37,10 @@ const Projects = () => {
                         <img src="image/por-el-mundo.png" alt="por el mundo" className="d-block" style={{width:'100%'}}/>
                       </div>
                       <div className="carousel-item">
-                        <img src="image/gym-fit-app.png" alt="Mi Portfolio" className="d-block" style={{width:'100%'}}/>
+                        <img src="image/gym-fit-app.png" alt="gym" className="d-block" style={{width:'100%'}}/>
+                      </div>
+                      <div className="carousel-item">
+                        <img src="image/ecommerce.png" alt="ecommerce" className="d-block" style={{width:'100%'}}/>
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -58,6 +62,7 @@ const Projects = () => {
         <li className='list'>REACT</li>
         <li className='list'>JS</li>
         <li className='list'>PYTHON</li>
+        <li className='list'>DJANGO</li>
       </ul>
     </div>
   )

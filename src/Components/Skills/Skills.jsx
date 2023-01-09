@@ -35,7 +35,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className='col'>
-                        <h3 className="bootstrap">Bootstrap</h3>
+                        <h3 className="bootstrap">BOOTSTRAP</h3>
                         <div className="progress1 orange">
                             <span className="progress1-left">
                                 <span className="progress1-bar"></span>
@@ -73,7 +73,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className='col'>
-                        <h3 className="js">NODE.JS</h3>
+                        <h3 className="js">DJANGO</h3>
                         <div className="progress1 yellow">
                             <span className="progress1-left">
                                 <span className="progress1-bar"></span>
@@ -111,7 +111,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className=" col">
-                        <h3 className="java">JAVA</h3>
+                        <h3 className="java">NODE.JS</h3>
                         <div className="progress1 verde">
                             <span className="progress1-left">
                                 <span className="progress1-bar"></span>

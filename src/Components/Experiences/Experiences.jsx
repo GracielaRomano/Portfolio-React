@@ -14,7 +14,7 @@ const Experiences = () => {
                 
                     <div>
                         <h5 className="experiencia-titulo">Encargada General</h5>
-                        <h6 className="experiencia-empresa">Mi Negocio</h6>
+                        <h6 className="experiencia-empresa">Grocery Stores</h6>
                         <p className="experiencia-fecha"> 2014 - 2015</p>
                         <p className="experiencia-lugar">Tucumán</p>
                         <p className="d-none d-sm-block ml-3 experiencia-detalle">Atención al público, mantenimiento de la cartera de

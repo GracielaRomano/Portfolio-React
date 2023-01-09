@@ -37,7 +37,7 @@ const Footer = () => {
                         <a className="link" href="http://www.facebook.com/graciela del valle romano" target="_blank"  rel="noreferrer noopener"> <FontAwesomeIcon icon = {faFacebook}/></a>
                         <a className="link" href="https://www.linkedin.com/in/graciela-del-valle-romano-11954275/"
                             target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faLinkedin}/></a>
-                        <a className="link" href="https://github.com/graciela1976" target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faGithub}/></a>
+                        <a className="link" href="https://www.github.com/graciela1976/" target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faGithub}/></a>
                         <a className="link" href="mailto:graci.romano@gmail.com" target="_blank"  rel="noreferrer noopener"><FontAwesomeIcon icon = {faEnvelope}/></a>
                     </div>
                 </div>
