@@ -23,7 +23,7 @@ const Aboutme = () => {
                   <p className="d-none d-sm-block ml-3 about2">  Desde que descubrí el nuevo mundo IT me apacioné con él, hay muchas tecnologias nuevas por indagar y 
                     aprender y miles de caminos por seguir y perfeccionarte
                  en el que mejor se adapte a tus preferencias.<br/>
-                De todo lo aprendido, me inclino por seguir el camino del frond end porque me permite expandir mi imaginación y 
+                De todo lo aprendido, me inclino por seguir el camino del Front End porque me permite expandir mi imaginación y 
                 mi lado creativo. <br/>
                 Este cambio de paradigma por el que estamos pasando ha despertado aún más mi curiosidad por aprender. <br/>
                 Lo que me lleva a buscar y capacitarme constantemente, la mayoría de los cursos los realicé de manera 

@@ -19,6 +19,7 @@ const Projects = () => {
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="4"aria-label="slide 5"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="5"aria-label="slide 6"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="6"aria-label="slide 7"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="7"aria-label="slide 8"></button>
                       </div>
                       <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -41,6 +42,9 @@ const Projects = () => {
                       </div>
                       <div className="carousel-item">
                         <img src="image/ecommerce.png" alt="ecommerce" className="d-block" style={{width:'100%'}}/>
+                      </div>
+                      <div className="carousel-item">
+                        <img src="image/eventos.png" alt="events" className="d-block" style={{width:'100%'}}/>
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
