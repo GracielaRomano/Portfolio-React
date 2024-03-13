@@ -18,6 +18,20 @@ const Certifications = () => {
                         </div>
                     </div>
                     <div className=" col-10 col-md-8">
+                        <h5 className="cert-titulo">Bootcamp Desarrollador Full Stack MERN</h5>  
+                        <h6 className="cert-empresa">MINDHUB</h6>
+                        <p className="cert-fecha">Setiembre 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-6 col-md-8 offset-md-4 col-lg-6 offset-lg-4">
+                <div className="row cuadrado_cert align-items-center">
+                    <div className="order-sm-first col-2 col-sm col-md-4">
+                        <div className="media d-flex align-items-start">
+                            <img className="d-flex ml-3  align-self-center imagen-cert" src="image/mindHub.png" alt="mindhub"/>
+                        </div>
+                    </div>
+                    <div className=" col-10 col-md-8">
                         <h5 className="cert-titulo">Bootcamp Desarrollador Web Front End</h5>  
                         <h6 className="cert-empresa">MINDHUB</h6>
                         <p className="cert-fecha">Marzo 2023</p>
